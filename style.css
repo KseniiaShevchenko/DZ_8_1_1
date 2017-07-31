@@ -121,3 +121,22 @@ footer p {
 		margin: 1%;
 	}
 }
+
+@media screen and (max-width: 320px) {
+	.container {
+		width: 100%;
+		font-size: 12px;
+	}
+
+	.main_content {
+		padding: 0 20px;
+	}
+
+	p {
+		margin: 0;
+	}
+
+	ul {
+		padding: 0 20px;
+	}
+}
